@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+.title {
+    margin: 0;
+}
+.conteiner, .content {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form_login {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_create {
+    display: flex;
+}
+
+.form_create input {
+    flex: 1;
+}
+
+.list {
+    padding: 0;
+    margin: 10px;
+}
+.list_item {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(178, 178, 178, 1);
+}
+.list_item .note_value {
+    font-size: 20px;
+    flex: 1;
+}
+.list_item .note_add_data {
+    margin-right: 10px;
+}
+.list_item button {
+    margin: 0;
+    padding: 3px;
+}
+input,
+button {
+    padding: 5px;
+    margin: 5px;
+}
+li.complete .note_value {
+    text-decoration: line-through;
+    color: rgb(132, 132, 132);
+}
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.3);
+}
+.hide {
+    display: none;
+}
+.loader img {
+    width: 100px;
+    height: 100px;
+}
+.list_item input[type='text'] {
+    flex: 1;
+    padding: 3px;
+}
+.list_item .save, .list_item .cansel {
+    margin: 3px;
+}
